@@ -1,0 +1,35 @@
+.websitePics {
+  height: 30%;
+}
+
+.projectBody {
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.projectBox {
+  width: 30%;
+  background-color: #272725f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: "K2D", sans-serif;
+}
+
+.projectBox > a {
+  color: aqua;
+}
+.projectBox > a:hover {
+  color: white;
+}
+
+.projectBox > h1 {
+  font-family: "VT323", monospace;
+  font-size: 160%;
+  text-decoration: underline;
+}

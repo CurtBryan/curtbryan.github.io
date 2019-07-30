@@ -1,0 +1,173 @@
+.headerBody {
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.controllerBody {
+  background-color: #d5d3d8;
+  height: 35vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.darkControllerBody {
+  background-color: #3f3f3f;
+  height: 30vh;
+  width: 48vw;
+  display: flex;
+}
+
+.leftSideCont {
+  /* background-color: springgreen; */
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftSideCont > img {
+  height: 75%;
+  margin-top: 30px;
+}
+
+.middleCont {
+  height: 100%;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.grayBar1 {
+  font-family: "VT323", monospace;
+  font-size: 120%;
+  height: 12%;
+  width: 100%;
+  background-color: #969590;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grayBar2 {
+  /* color: #df3b39; */
+  height: 12%;
+  width: 100%;
+  background-color: #969590;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grayBarNavs {
+  font-size: 120%;
+  font-family: "VT323", monospace;
+  height: 15%;
+  width: 100%;
+  background-color: #969590;
+  border-radius: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.buttonsCont {
+  height: 25%;
+  width: 100%;
+  background-color: #d9d8dd;
+  border-radius: 8%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.lastGrayBar {
+  height: 12%;
+  width: 100%;
+  background-color: #969590;
+  border-radius: 10%;
+}
+.rightSideCont {
+  /* background-color: springgreen; */
+  height: 100%;
+  width: 38%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nameButtonBox {
+  height: 90%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nameLogo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 40%;
+  width: 100%;
+}
+
+.nameLogo > h1 {
+  font-size: 13px;
+  color: #df3b39;
+  font-family: "Press Start 2P", cursive;
+}
+
+.buttonBoxCont {
+  height: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonBox {
+  background-color: #d5d3d8;
+  height: 80%;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redButton {
+  background-color: #df3b39;
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.svgLinkLogos {
+  height: 10vh;
+}
+
+.svgLinkLogos:hover {
+  height: 12vh;
+}
+
+.navButton {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  border: none;
+  border-radius: 10%;
+}
+
+.navButton:hover {
+  background-color: #3f3f3f;
+}
+
+.grayBarNavs > h1 {
+  width: 30%;
+  text-align: center;
+}

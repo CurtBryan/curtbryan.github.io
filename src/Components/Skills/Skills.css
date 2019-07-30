@@ -1,0 +1,42 @@
+.firstCont {
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skillsCont {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+
+.skillBox {
+  height: 40%;
+  width: 13%;
+  background-color: #272725f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  color: white;
+  font-family: "K2D", sans-serif;
+}
+
+.skillBox:hover {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0, 0, 0, 0.3) inset;
+}
+
+.langLogo {
+  font-size: 200%;
+  color: #df3b39;
+}
+
+h3 {
+  font-size: 20px;
+}
